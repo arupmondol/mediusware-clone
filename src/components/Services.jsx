@@ -8,7 +8,7 @@ const Services = () => {
         Things We’re <span className="text-[#2EB8A2]">Good At</span>{" "}
       </h3>
       <div>
-         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center w-[1440px] mx-auto gap-6 mb-12">
+         <div className="grid sm:grid-cols-1 grid-cols-2 lg:grid-cols-3  justify-center items-center w-[1440px] mx-auto gap-6 mb-12">
       <div className="card bg-[#072B4A99] image-full w-[464px] h-[364px] shadow-xl rounded-xl col-span-1">
         <figure>
           <img

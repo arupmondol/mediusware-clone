@@ -2,8 +2,8 @@ import { FiDownload } from "react-icons/fi";
 const AboutUs = () => {
   return (
     <div className="bg-[#F0F8FF]">
-      <div className="w-[1440px] mx-auto py-[124px] flex relative">
-        <div className="relative">
+      <div className="w-[1440px] mx-auto py-[124px] lg:flex lg:relative">
+        <div className="lg:relative">
           <div className="">
             <img
               src="../../images/aboutus-img.png"
@@ -16,7 +16,7 @@ const AboutUs = () => {
             <img src="../../images/play.png" alt="" />
           </div>
         </div>
-        <div className="bg-white p-8 rounded-xl w-[825px] h-[486px] absolute right-0 bottom-[20%]">
+        <div className="bg-white p-8 rounded-xl w-[825px] h-[486px] lg:absolute right-0 bottom-[20%]">
           <h3 className="sora text-[#072B4A] text-[48px] font-semibold">
             A Little Bit <span className="text-[#2EB8A2]">About Us</span>
           </h3>

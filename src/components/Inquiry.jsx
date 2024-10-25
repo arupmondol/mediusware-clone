@@ -3,11 +3,12 @@ import { VscSend } from "react-icons/vsc";
 const Inquiry = () => {
   return (
     <div className="w-[1440px] mx-auto pb-[124px]">
-      <div className="grid grid-cols-2 md:grid-cols-1 gap-8">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
         <div className="col-span-1">
           <div className="relative">
-            <img src="../../images/ceo-img.png" alt="" />
-            <div className="bg-[#A5EADA4D] p-6 rounded-xl absolute left-[27%] bottom-0 backdrop-blur-lg w-[374px]">
+            <div className="relative"><img src="../../images/ceo-img.png" alt="" /></div>
+            
+            <div className="bg-[#A5EADA4D] absolute p-6 rounded-xl md:left-[12%] sm:left-[-6%]  lg:left-[27%] bottom-0 backdrop-blur-lg w-[374px] sm:w-[100px]">
               <h3 className="sora text-[#072B4A] text-2xl font-semibold mb-2">
                 Md. Shahinur Rahman
               </h3>

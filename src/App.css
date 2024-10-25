@@ -1,0 +1,23 @@
+.slick-slide > div {
+  margin: 0 12px;
+  margin-bottom: 24px;
+}
+.slick-dots li.slick-active button::before {
+  opacity: 1;
+  color: #0c98eb;
+}
+.slick-dots li button::before {
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  color: #cbd5e1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
